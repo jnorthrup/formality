@@ -6,5 +6,7 @@
 .settings
 .classpath
 
+.idea
+*.i[mp][prl]
 # Build output
-target/
+target

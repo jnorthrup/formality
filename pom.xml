@@ -3,12 +3,12 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.sencha.gwt</groupId>
   <artifactId>formality</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1-jn</version>
   <name>Formality</name>
   <description>Declarative Form building for GWT Editors</description>
   <properties>
-    <gwt.version>2.5.0</gwt.version>
-    <gwt.plugin.version>2.5.0</gwt.plugin.version>
+    <gwt.version>2.5.1</gwt.version>
+    <gwt.plugin.version>2.5.1</gwt.plugin.version>
     <gxt.version>3.0.1</gxt.version>
 
     <gwt.test.mode>htmlunit</gwt.test.mode>
@@ -38,7 +38,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>2.3.2</version>
+        <version>3.0</version>
         <configuration>
           <source>${java.version}</source>
           <target>${java.version}</target>
@@ -67,7 +67,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-source-plugin</artifactId>
-        <version>2.1.2</version>
+        <version>2.2.1</version>
         <executions>
           <execution>
             <id>attach-sources</id>
@@ -129,7 +129,7 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.8.1</version>
+      <version>4.11</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
